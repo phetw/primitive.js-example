@@ -6,41 +6,15 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Primitive.js example</title>
-	<style>
-		.container {
-			display: flex;
-			width: 100vw;
-			height: 100vh;
-			position: relative;
-			justify-content: center;
-			align-items: center;
-		}
-
-		#profile {
-			position: absolute;
-			z-index: 1;
-			opacity: 0;
-			width: 275px;
-			height: 275px;
-		}
-
-		#vector {
-			position: absolute;
-			z-index: 2;
-			opacity: 1;
-			width: 275px;
-			height: 275px;
-			transition: opacity 5s ease;
-		}
-	</style>
+	<link rel="stylesheet" href="main.css">
 </head>
 
 <body>
 	<main class="container">
-		<img id="raw" crossorigin="anonymous" src="https://picsum.photos/275/275">
+		<img id="raw" crossorigin="anonymous" src="https://picsum.photos/275/275?random">
 		<div id="vector" />
 	</main>
-	<script src="./main.js"></script>
+	<script src="main.js"></script>
 </body>
 
 </html>
